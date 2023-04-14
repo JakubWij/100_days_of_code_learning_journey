@@ -1,0 +1,49 @@
+PAGE INSPIRATIONS https://collectui.com
+
+1. Colour Theory:
+take care of color taking into considetarion a mood of website
+Red: Love energy intensity - car add yought
+Yellow: joy intellect attention - advertise for a short perioid of time
+Green: Freshness safety growth - grocery company,
+Blue: Stability Trust serenity - financial companies, paypal, crypto
+Purple: Royal wealth feminity - chwilowki-payday companies
+
+combinations colour palet if you take both colours close to eachother so like red and orange it is harmonius: body of website
+navigation bars or logo/background its not standing out
+
+complementary colour palet is standing out red-green brings attention BUT NOT FOR TEXT  its best for logos
+
+Triangle/ square https://color.adobe.com/pl/create/color-wheel
+https://colorhunt.co
+
+2. Typography - fonts, stick to 2 fonts in one design, but 3 section can have 6 fonts 2 per section
+
+serif: f with feet - more serious, stable, respectable and authoritative and also a bit older - letter for a legal
+company magazine for archtect desine Modern but authoritative - Didot aged-winery - old style
+https://innovativeadagency.com/wp-content/uploads/sites/2/2017/04/The-Emotion-Behind-Fonts.png
+
+sanserif - sensible, simple, straightforward - body text - Humanist typeface is highly redable like gill sans, verdana, tahoma
+
+SIMILAR: MOOD, TIME ERA OF THE FONT
+DIFFRENT: SANSERIF-NESS(heading serif body sanserif or the other way around), WEIGHTS
+
+AVOID FONTS: kristen, comic sans, curlz, viner, papyrus
+
+3. User interface design - most important information needs to stand out
+
+layout is important diffrent hierarchy
+30-40 characters per line is ideal so around 6 words per line
+
+alignment both starting point the same so left alligned or center
+
+more white space dont clump all things into eachother
+
+take audience into considetation so if kids are targett make it colorfull serious- black/white scheme
+
+4. user experience is meant to be invisible and it should feel like easy and effortless:
+a) simplicity
+b) consistency - functionality and design
+c) reading patterns - F for news Z for youtube for example
+d) all platform design - make mobile responsive website
+e) dont use your powers for evil - dark patterns, benefitial for company,
+

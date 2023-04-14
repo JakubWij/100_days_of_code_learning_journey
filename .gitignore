@@ -1,0 +1,21 @@
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+__pycache__/
+*.egg-info/
+*.egg
+*.egg-info
+dist/
+build/
+*.log
+*.sqlite3
+*.db
+config.ini
+token.txt
+data.json
+
+# Project exclude paths
+/venv/

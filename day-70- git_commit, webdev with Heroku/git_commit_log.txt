@@ -1,0 +1,262 @@
+
+harry@LAPTOP-LKDJNC8G MINGW64 /
+$ cd
+
+harry@LAPTOP-LKDJNC8G MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+ Contacts/
+ Cookies@
+'Dane aplikacji'@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Menu Start'@
+ MicrosoftEdgeBackups/
+'Moje dokumenty'@
+ Music/
+ NTUSER.DAT
+ NTUSER.DAT{0769ce40-a38b-11eb-b503-99010798498d}.TM.blf
+ NTUSER.DAT{0769ce40-a38b-11eb-b503-99010798498d}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{0769ce40-a38b-11eb-b503-99010798498d}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ Postman/
+ PrintHood@
+ PycharmProjects/
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ Szablony@
+'Ustawienia lokalne'@
+ Videos/
+ ansel/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ papers/
+
+harry@LAPTOP-LKDJNC8G MINGW64 ~
+$ cd Desktop
+
+harry@LAPTOP-LKDJNC8G MINGW64 ~/Desktop
+$ mkdir Story
+
+harry@LAPTOP-LKDJNC8G MINGW64 ~/Desktop
+$ cd Story
+
+harry@LAPTOP-LKDJNC8G MINGW64 ~/Desktop/Story
+$ ls
+
+harry@LAPTOP-LKDJNC8G MINGW64 ~/Desktop/Story
+$ touch chapter1.txt
+
+harry@LAPTOP-LKDJNC8G MINGW64 ~/Desktop/Story
+$ open chapter1.txt
+bash: open: command not found
+
+harry@LAPTOP-LKDJNC8G MINGW64 ~/Desktop/Story
+$ start chapter1.txt
+
+harry@LAPTOP-LKDJNC8G MINGW64 ~/Desktop/Story
+$ git init
+Initialized empty Git repository in C:/Users/harry/Desktop/Story/.git/
+
+harry@LAPTOP-LKDJNC8G MINGW64 ~/Desktop/Story (master)
+$ ls -a
+./  ../  .git/  chapter1.txt
+
+harry@LAPTOP-LKDJNC8G MINGW64 ~/Desktop/Story (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        chapter1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+harry@LAPTOP-LKDJNC8G MINGW64 ~/Desktop/Story (master)
+$ git add chapter1.txt
+
+harry@LAPTOP-LKDJNC8G MINGW64 ~/Desktop/Story (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   chapter1.txt
+
+
+harry@LAPTOP-LKDJNC8G MINGW64 ~/Desktop/Story (master)
+$ git commit -m "Complete chapter 1"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'harry@LAPTOP-LKDJNC8G.(none)')
+
+harry@LAPTOP-LKDJNC8G MINGW64 ~/Desktop/Story (master)
+$ git log
+fatal: your current branch 'master' does not have any commits yet
+
+harry@LAPTOP-LKDJNC8G MINGW64 ~/Desktop/Story (master)
+$ git config --global user.name "Jakub"
+
+harry@LAPTOP-LKDJNC8G MINGW64 ~/Desktop/Story (master)
+$ git log
+fatal: your current branch 'master' does not have any commits yet
+
+harry@LAPTOP-LKDJNC8G MINGW64 ~/Desktop/Story (master)
+$ git commit -m "Complete chapter 1"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'harry@LAPTOP-LKDJNC8G.(none)')
+
+harry@LAPTOP-LKDJNC8G MINGW64 ~/Desktop/Story (master)
+$ git config --global user.email "jakub.wijatkowski@gmail.com"
+
+harry@LAPTOP-LKDJNC8G MINGW64 ~/Desktop/Story (master)
+$ git commit -m "Complete chapter 1"
+[master (root-commit) 78d9173] Complete chapter 1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 chapter1.txt
+
+harry@LAPTOP-LKDJNC8G MINGW64 ~/Desktop/Story (master)
+$ git log
+commit 78d91735eeaaa591a556c473153c5abf22d773f8 (HEAD -> master)
+Author: Jakub <jakub.wijatkowski@gmail.com>
+Date:   Thu Jan 19 19:17:40 2023 +0100
+
+    Complete chapter 1
+
+harry@LAPTOP-LKDJNC8G MINGW64 ~/Desktop/Story (master)
+$ touch chapter2.txt
+
+harry@LAPTOP-LKDJNC8G MINGW64 ~/Desktop/Story (master)
+$
+
+harry@LAPTOP-LKDJNC8G MINGW64 ~/Desktop/Story (master)
+$ touch chapter3.txt
+
+harry@LAPTOP-LKDJNC8G MINGW64 ~/Desktop/Story (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        chapter2.txt
+        chapter3.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+harry@LAPTOP-LKDJNC8G MINGW64 ~/Desktop/Story (master)
+$ git add .
+
+harry@LAPTOP-LKDJNC8G MINGW64 ~/Desktop/Story (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   chapter2.txt
+        new file:   chapter3.txt
+
+
+harry@LAPTOP-LKDJNC8G MINGW64 ~/Desktop/Story (master)
+$ git commit -m "Complete chapter 2"
+[master da678bd] Complete chapter 2
+ 2 files changed, 2 insertions(+)
+ create mode 100644 chapter2.txt
+ create mode 100644 chapter3.txt
+git
+harry@LAPTOP-LKDJNC8G MINGW64 ~/Desktop/Story (master)
+$ git log
+commit da678bd9b2dc2c56ede0dd475f6a4f1e64faebff (HEAD -> master)
+Author: Jakub <jakub.wijatkowski@gmail.com>
+Date:   Thu Jan 19 19:22:19 2023 +0100
+
+    Complete chapter 2
+
+commit 78d91735eeaaa591a556c473153c5abf22d773f8
+Author: Jakub <jakub.wijatkowski@gmail.com>
+Date:   Thu Jan 19 19:17:40 2023 +0100
+
+    Complete chapter 1
+
+harry@LAPTOP-LKDJNC8G MINGW64 ~/Desktop/Story (master)
+$ ^C
+
+harry@LAPTOP-LKDJNC8G MINGW64 ~/Desktop/Story (master)
+$ ^C
+
+harry@LAPTOP-LKDJNC8G MINGW64 ~/Desktop/Story (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   chapter3.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+harry@LAPTOP-LKDJNC8G MINGW64 ~/Desktop/Story (master)
+$ git diff
+diff --git a/chapter3.txt b/chapter3.txt
+index a6522b1..6840327 100644
+--- a/chapter3.txt
++++ b/chapter3.txt
+@@ -1 +1 @@
+-It was the spring of hope
+\ No newline at end of file
++ asgr  e w fewr
+\ No newline at end of file
+
+harry@LAPTOP-LKDJNC8G MINGW64 ~/Desktop/Story (master)
+$ git diff chapter3.txt
+diff --git a/chapter3.txt b/chapter3.txt
+index a6522b1..6840327 100644
+--- a/chapter3.txt
++++ b/chapter3.txt
+@@ -1 +1 @@
+-It was the spring of hope
+\ No newline at end of file
++ asgr  e w fewr
+\ No newline at end of file
+
+harry@LAPTOP-LKDJNC8G MINGW64 ~/Desktop/Story (master)
+$ git checkout
+M       chapter3.txt
+
+harry@LAPTOP-LKDJNC8G MINGW64 ~/Desktop/Story (master)
+$ git checkout chapter3.txt
+Updated 1 path from the index
+
+harry@LAPTOP-LKDJNC8G MINGW64 ~/Desktop/Story (master)
+$

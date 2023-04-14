@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="My website made with my own hands ;d">
+    <meta name="author" content="Jakub Wijatkowski">
+
+    <title>Portfolio Website</title>
+
+    <link href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.css') }}" rel="stylesheet">
+
+    <link href="{{ url_for('static', filename='scss/custom.scss') }}" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="{{ url_for('static', filename='css/additional.css')}}" rel="stylesheet">
+</head>
+<body>
+<!--navbar with sticky top about, portfolio, skills???, contact -->
+<div class="container-fluid">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li><a id="len1" class="hoverable" href="#">Home</a></li>
+                <li><a id="len2" class="hoverable" href="#">About</a></li>
+                <li><a id="len3" class="hoverable" href="#">Portfolio</a></li>
+                <li><a id="len4" class="hoverable" href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+    <!-- Bootstrap core JavaScript -->
+  <script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js')}}"></script>
+  <script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+    <!-- Custom scripts for this template -->
+    <script src="{{ url_for('static', filename='js/navbar.js') }}"></script>
+
+</body>
+</html>
